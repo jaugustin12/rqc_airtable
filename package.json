@@ -1,0 +1,17 @@
+{
+  "name": "airtable",
+  "version": "1.0.0",
+  "description": "airtable api",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Jonathan Augustin",
+  "license": "ISC",
+  "dependencies": {
+    "airtable": "^0.11.1",
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2"
+  }
+}
