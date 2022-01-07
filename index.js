@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
 
 app.use('/api', rtsIndex);
 
-const port = 3000
+const port = process.env.port || 8080
 app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`)
   })
